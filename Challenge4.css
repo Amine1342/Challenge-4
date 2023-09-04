@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url(Fond.jpg);
+}
+h1 {
+  text-align: center;
+  position: relative;
+  margin: 25px solid rgb(43, 42, 42);
+}
+h5 {
+  text-transform: lowercase;
+  text-align: right;
+  margin-right: 10px;
+  font-style: italic;
+}
+.black{
+  background: transparent;
+  padding: 20px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+.code{
+  display: inline-block;
+  width: 50%;
+  text-align: left;
+  text-indent: 280px;
+}
+.prix{
+  display: inline-block;
+  width: 35%;
+}
+.rectangle-rouge{
+  width: 100%;
+  height: 30px;
+  background-color: red;
+}
+.rectangle-droite{
+  padding-left: 10px;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titre h1{
+  margin: -16px;
+  padding: 25px;
+  white-space: nowrap;
+}
